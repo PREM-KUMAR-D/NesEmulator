@@ -5,6 +5,9 @@ Bus::Bus()
 	// Clear the RAM contents
 	// auto& is copy by references
 	for (auto& i : ram) i = 0x00;
+
+	// Connect cpu to the bus
+	cpu.ConnectBus(this);
 }
 
 Bus::~Bus()

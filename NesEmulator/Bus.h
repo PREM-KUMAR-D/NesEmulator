@@ -1,6 +1,8 @@
 #pragma once
 #include<cstdint>
 #include<array>
+#include<vector>
+#include<string>
 #include"kd6502.h"
 class Bus
 {

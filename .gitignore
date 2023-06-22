@@ -364,3 +364,6 @@ FodyWeavers.xsd
 
 # Resources
 Datasheet.pdf
+
+# Git ignore
+.gitignore
